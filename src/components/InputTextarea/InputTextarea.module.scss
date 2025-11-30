@@ -1,0 +1,12 @@
+@import 'tokens';
+
+.base {
+  --InputContainer_padding: 0;
+
+  >textarea {
+    field-sizing: content;
+    padding: 0 $space-md;
+    min-height: $size-lg;
+    resize: vertical;
+  }
+}

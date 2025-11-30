@@ -1,0 +1,11 @@
+@import 'tokens';
+
+.base {
+  width: $container-xs;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+.item {
+  --Card-thumbnail_aspectRatio: 1 / 1;
+}

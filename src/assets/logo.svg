@@ -1,0 +1,5 @@
+<svg version="1.1" viewBox="0 0 112 42" xmlns="http://www.w3.org/2000/svg">
+ <path d="m24 21h8v16h-8zm0-8v8h8v-8zm40-8h-24v24h24v-8h-16 16v-8h-16 16zm-24 0h-8v32h24v-8h-16zm-32 0h24v8h-8v24h-8v-24h-8z" style="fill:#3567f0;stroke-width:1px;stroke:#fff"/>
+ <path d="m96 17v4m-16-4v4m8-8h16v12h-8 8v12h-8v-8 8h-8zm-16 24v-24h16v24h-8v-12 12zm-8-24h8v24h-16v-8h8z" style="fill:#d89845;stroke-width:1px;stroke:#fff"/>
+ <path d="m64 5h32v8h-32z" style="fill:#d84547;stroke-width:1px;stroke:#fff"/>
+</svg>

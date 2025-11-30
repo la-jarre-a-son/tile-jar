@@ -1,0 +1,13 @@
+@import 'tokens';
+
+.base {
+  flex-shrink: 0;
+}
+
+.slider {
+  --Slider_size: #{$size-xs};
+
+  .sliderLabel {
+    width: 10ch;
+  }
+}

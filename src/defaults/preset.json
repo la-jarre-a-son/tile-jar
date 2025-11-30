@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "width": 440,
+  "height": 384,
+  "safeAreaSize": 440,
+  "render": {
+    "width": 440,
+    "height": 384,
+    "duration": 5,
+    "frameRate": 60,
+    "loop": true,
+    "seed": 0
+  },
+  "grid": {
+    "originX": -192,
+    "originY": 0,
+    "countX": 26,
+    "countY": 12,
+    "lines": 4,
+    "columns": 5,
+    "order": "down-right",
+    "transform": ""
+  },
+  "tile": {
+    "width": 96,
+    "height": 32,
+    "lineDeltaX": -40,
+    "lineDeltaY": 32,
+    "columnDeltaX": 88,
+    "columnDeltaY": 0,
+    "transformOriginX": 48,
+    "transformOriginY": 16,
+    "path": "M 56,0 H 88 V 8 H 56 Z m 32,12 v 4 M 80,8 h 16 v 12 h -8 8 v 12 h -8 v -8 8 h -8 z m -8,4 v 4 M 64,32 V 8 H 80 V 32 H 72 V 20 32 Z M 56,8 h 8 V 32 H 48 v -8 h 8 z m -40,8 h 8 v 16 h -8 z m 0,-8 v 8 h 8 V 8 Z M 56,0 H 32 V 24 H 56 V 16 H 40 56 V 8 H 40 56 Z M 32,0 H 24 V 32 H 48 V 24 H 32 Z M 0,0 H 24 V 8 H 16 V 32 H 8 V 8 H 0 Z"
+  },
+  "variants": [
+    {
+      "fill": "#3567f0",
+      "stroke": "#ffffff",
+      "opacity": 1,
+      "strokeWidth": 2,
+      "transform": null
+    },
+    {
+      "fill": "#6241bc",
+      "stroke": "#ffffff",
+      "opacity": 1,
+      "strokeWidth": 2,
+      "transform": null
+    },
+    {
+      "fill": "#d84547",
+      "stroke": "#ffffff",
+      "opacity": 1,
+      "strokeWidth": 2,
+      "transform": null
+    },
+    {
+      "fill": "#d89845",
+      "stroke": "#ffffff",
+      "opacity": 1,
+      "strokeWidth": 2,
+      "transform": null
+    },
+    {
+      "fill": "#19a86c",
+      "stroke": "#ffffff",
+      "opacity": 1,
+      "strokeWidth": 2,
+      "transform": null
+    }
+  ],
+  "variantLineShift": 3,
+  "variantColumnShift": 3,
+  "tileAnimations": [
+    {
+      "enabled": true,
+      "duration": "5s",
+      "easing": "ease",
+      "composition": "add",
+      "delayPerTile": "0s",
+      "delayPerLine": "calc(5s / var(--lines) - 5s)",
+      "delayPerColumn": "0s",
+      "steps": [
+        {
+          "progress": 0,
+          "fill": null,
+          "stroke": null,
+          "opacity": null,
+          "strokeWidth": null,
+          "transform": "translate(0, 0)"
+        },
+        {
+          "progress": 0.5,
+          "fill": null,
+          "stroke": null,
+          "opacity": null,
+          "strokeWidth": null,
+          "transform": "translate(96px, 0)"
+        },
+        {
+          "progress": 1,
+          "fill": null,
+          "stroke": null,
+          "opacity": null,
+          "strokeWidth": null,
+          "transform": "translate(0, 0)"
+        }
+      ]
+    }
+  ],
+  "gridAnimations": [
+    {
+      "enabled": true,
+      "duration": "5s",
+      "easing": "linear",
+      "composition": "add",
+      "steps": [
+        {
+          "progress": 0,
+          "transform": "translate(0, 0)"
+        },
+        {
+          "progress": 1,
+          "transform": "translate(calc(-1 * var(--view-width)), 0)"
+        }
+      ]
+    }
+  ]
+}

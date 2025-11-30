@@ -1,0 +1,17 @@
+$ljas-ui-asset-path: '@la-jarre-a-son/ui/lib/theme/jar/assets';
+
+@import "@flaticon/flaticon-uicons/css/regular/rounded";
+@import "@flaticon/flaticon-uicons/css/brands/all";
+
+@import '@la-jarre-a-son/ui/lib/theme/jar/tokens';
+@import '@la-jarre-a-son/ui/lib/style/normalize';
+@import '@la-jarre-a-son/ui/lib/theme/jar/global';
+@import '@la-jarre-a-son/ui/lib/theme/jar/fonts';
+@import '@la-jarre-a-son/ui/lib/theme/jar/dark';
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}

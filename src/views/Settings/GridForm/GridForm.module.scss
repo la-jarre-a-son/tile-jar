@@ -1,0 +1,10 @@
+@import 'tokens';
+
+.base {
+  padding: $space-md;
+
+  .input-hint {
+    flex-grow: 0;
+  }
+}
+

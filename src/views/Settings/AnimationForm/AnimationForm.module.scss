@@ -1,0 +1,39 @@
+@import 'tokens';
+
+.base {
+  padding: $space-md;
+}
+
+.textarea {
+  --InputContainer_padding: 0;
+
+  >textarea {
+    padding: 0 $space-md;
+    min-height: $size-sm;
+    resize: vertical;
+  }
+}
+
+.item {
+  --List-item_padding: 0 0 0 #{$space-md};
+
+  &.--disabled {
+    opacity: 0.5;
+  }
+}
+
+.stepPreview {
+  width: 24px;
+  height: 24px;
+  border-style: solid;
+  line-height: 24px;
+  text-align: center;
+}
+
+.steps {
+  --Box_padding: 0;
+}
+
+.field {
+  flex-grow: 1;
+}
